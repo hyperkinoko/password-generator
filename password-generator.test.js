@@ -183,3 +183,7 @@ test('generate with specific settings', () => {
 // });
 
 // ToDo: 不正なsettingに対してerrorを投げるかの確認
+test('check settings', () => {
+    except(inputMin.length <= 0).toBeFalsy();
+    except(inputMax.length <= 0).toBeFalsy();
+});
