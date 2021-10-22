@@ -2,7 +2,7 @@
   "name": "password-generator",
   "version": "1.0.0",
   "description": "Generate Password",
-  "main": "src/password-generator.js",
+  "main": "password-generator.js",
   "private": true,
   "scripts": {
 
